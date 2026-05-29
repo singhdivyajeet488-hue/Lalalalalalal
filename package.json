@@ -1,0 +1,23 @@
+{
+  "name": "discord-music-bot",
+  "version": "4.0.0",
+  "description": "Discord music bot with slash commands and yt-dlp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "0.17.0",
+    "@distube/yt-dlp": "2.0.1",
+    "discord.js": "14.15.3",
+    "distube": "5.2.3",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.15",
+    "tweetnacl": "^1.0.3",
+    "opusscript": "^0.0.8"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
