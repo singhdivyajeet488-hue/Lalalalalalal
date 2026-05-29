@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["nodejs_20", "ffmpeg", "python3", "yt-dlp", "libtool", "autoconf", "automake", "gcc", "gnumake"]
+
+[phases.build]
+cmds = ["npm install --build-from-source"]
+
+[start]
+cmd = "node index.js"
